@@ -14,7 +14,7 @@
 <body>
   <header class="site-header">
     <a class="brand" href="#" aria-label="Nina início">
-      <span class="brand-mark" aria-hidden="true">n</span><span>nina</span>
+      <img class="brand-logo" src="./assets/logo-nina.jpeg" alt="" /><span>Nina</span>
     </a>
     <nav class="desktop-nav" aria-label="Navegação principal">
       <a href="#como-funciona">Como funciona</a>
@@ -39,15 +39,11 @@
           <p>Feita para acompanhar <strong>bebês de 2 a 36 meses</strong></p>
         </div>
       </div>
-      <div class="hero-visual">
-        <div class="blob blob-one"></div><div class="blob blob-two"></div>
-        <div class="photo-card">
-          <img src="https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=1000&q=85" alt="Bebê descansando tranquilamente" />
-          <div class="photo-caption"><span class="caption-icon">☾</span><div><strong>Pequenos passos contam</strong><small>Uma rotina mais previsível, aos poucos.</small></div></div>
-        </div>
-        <div class="floating-card sleep-card"><span class="sleep-icon">☾</span><div><small>Próximo soninho</small><strong>Vamos acompanhar juntos</strong></div><span class="tiny-arrow">↗</span></div>
-        <div class="floating-card heart-card"><span>♡</span><div><strong>Sem culpa.</strong><small>Com mais acolhimento.</small></div></div>
-        <span class="sparkle sparkle-a">✳</span><span class="sparkle sparkle-b">✦</span>
+      <div class="hero-visual hero-app-visual">
+        <div class="app-glow"></div>
+        <div class="hero-screen-frame"><img src="./assets/home-screen.png" alt="Tela Hoje do aplicativo Nina, com previsão do próximo soninho e rotina diária" /></div>
+        <div class="floating-card sleep-card"><span class="sleep-icon">☾</span><div><small>Rotina do bebê</small><strong>Mais clareza no dia a dia</strong></div><span class="tiny-arrow">✦</span></div>
+        <div class="floating-card heart-card"><span>♡</span><div><strong>No ritmo de vocês.</strong><small>Sem buscar perfeição.</small></div></div>
       </div>
     </section>
 
@@ -70,25 +66,25 @@
 
     <section class="feature-section">
       <div class="feature-layout section-wrap">
-        <div class="feature-art">
-          <div class="phone">
-            <div class="phone-top"><span>9:41</span><span>•••</span></div>
-            <div class="app-greeting">Oi, família! <span>♡</span><small>Vamos acompanhar o dia de hoje?</small></div>
-            <div class="sleep-ring"><div><span>☾</span><strong>Hoje</strong><small>um soninho de cada vez</small></div></div>
-            <div class="phone-stat"><span class="stat-symbol">◷</span><div><small>Rotina do dia</small><strong>Seus registros em um só lugar</strong></div></div>
-            <div class="phone-stat"><span class="stat-symbol lavender">☁</span><div><small>Próximo passo</small><strong>Acompanhe os sinais de sono</strong></div></div>
-            <div class="phone-button">Registrar soninho <span>＋</span></div>
+        <div class="feature-art product-screens">
+          <div class="screen-card screen-report">
+            <img src="./assets/weekly-report.png" alt="Relatório semanal da Nina com gráficos e análise da rotina de sono" />
+            <span class="screen-label">Relatórios e evolução</span>
           </div>
-          <div class="feature-note"><span>✦</span> Seu dia, com mais clareza</div>
+          <div class="screen-card screen-sounds">
+            <img src="./assets/sounds-screen.png" alt="Tela de sons relaxantes e ruído branco da Nina" />
+            <span class="screen-label">Sons para relaxar</span>
+          </div>
+          <div class="feature-note"><span>✦</span> Tudo sobre a rotina em um só lugar</div>
         </div>
         <div class="feature-copy">
           <span class="eyebrow">Conheça a Nina</span>
-          <h2>Menos tentativa e erro. <em>Mais clareza para decidir.</em></h2>
-          <p>A Nina ajuda você a registrar o sono e observar padrões da rotina do seu bebê. Assim, fica mais fácil entender o dia e ajustar os próximos passos com calma.</p>
+          <h2>Uma rotina mais clara. <em>Um app feito para acolher.</em></h2>
+          <p>Acompanhe o sono, visualize os padrões da semana e use sons relaxantes para criar um ambiente mais tranquilo. A Nina reúne ferramentas práticas para ajudar você a entender a rotina do seu bebê.</p>
           <ul class="check-list">
-            <li><span>✓</span><div><strong>Registre os soninhos sem complicação</strong><small>Acompanhe os horários de sono diurno e noturno.</small></div></li>
-            <li><span>✓</span><div><strong>Visualize a rotina em um só lugar</strong><small>Consulte o histórico e perceba padrões ao longo dos dias.</small></div></li>
-            <li><span>✓</span><div><strong>Tenha orientação para o próximo passo</strong><small>Use estimativas e janelas de sono como referência, não como regra.</small></div></li>
+            <li><span>✓</span><div><strong>Registre sono e rotina</strong><small>Acompanhe os soninhos e outros momentos do dia.</small></div></li>
+            <li><span>✓</span><div><strong>Veja relatórios semanais</strong><small>Consulte gráficos e acompanhe a evolução da rotina.</small></div></li>
+            <li><span>✓</span><div><strong>Relaxe com sons suaves</strong><small>Explore ruído branco e sons relaxantes para o momento do sono.</small></div></li>
           </ul>
           <a class="text-link" href="#como-funciona">Veja como funciona <span>→</span></a>
         </div>
@@ -138,7 +134,7 @@
   </main>
 
   <footer class="site-footer">
-    <a class="brand" href="#"><span class="brand-mark">n</span><span>nina</span></a>
+    <a class="brand" href="#"><img class="brand-logo footer-logo" src="./assets/logo-nina.jpeg" alt="" /><span>Nina</span></a>
     <p>Mais acolhimento para os dias e noites da sua família.</p>
     <div class="footer-links"><a href="#" data-privacy>Privacidade</a><a href="#" data-terms>Termos de uso</a><a href="mailto:oi@nina.app">Contato</a></div>
     <small>© <span id="year"></span> Nina. Feito com carinho.</small>
